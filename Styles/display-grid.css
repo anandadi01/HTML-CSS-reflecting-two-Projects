@@ -1,0 +1,14 @@
+.item{
+    border: 3px solid red;
+    display:block;
+    height: 100px;
+/*    width: 100px;*/
+}
+.container{
+    border: 1px solid red;
+    display:grid;
+    grid-template-columns: 1fr 2fr 1fr;
+    grid-gap: 1rem;
+    padding: 1rem;
+/*    padding-right: 1rem*/
+}

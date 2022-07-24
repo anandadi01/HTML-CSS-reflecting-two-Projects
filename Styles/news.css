@@ -1,0 +1,82 @@
+@import url('https://fonts.googleapis.com/css2?family=Abel&family=Roboto&family=Roboto+Slab&display=swap');
+*{
+    font-family: "Roboto Slab", sans-serif;
+    box-sizing: border-box
+}
+div{
+/*    border: 1px solid blue*/
+}
+
+.header{
+    background-color: #440047;
+/*    padding: 1rem;*/
+    border-bottom: 0.5rem solid #91d18b
+    
+}
+.logo{
+    color: #fbecec;
+    padding: 1rem;
+    margin: 0px
+}
+.category-column{
+    width: 25%;
+    float:left;
+    padding: 1.2rem
+/*    background-color: RGBA(255,50,50,35%)*/
+}
+.headlines-column{
+    width: 49%;
+    float: left;
+    padding: 1.2rem
+/*    background-color: RGBA(50,255,50,35%)*/
+}
+.weather-column{
+    width: 25%;
+    float: left;
+    padding: 1.2rem
+/*    background-color: RGBA(50,50,255,35%)*/
+}
+.footer{
+/*    background-color: RGBA(50,255,255,35%);*/
+    
+    clear: both;
+    padding: 1.2rem;
+    background-color: #440047;
+    color: #fbecec
+    
+}
+body{
+    margin: 0px
+}
+.heading{
+    color: #e11d74;
+    margin: 1.2rem
+}
+.degree{
+    text-align: center;
+    color: #91d188;
+    font-size: 6rem
+}
+.news-title, .cateogy-items{
+/*
+    padding-top: 0.6rem;
+    padding-bottom: 0.6rem;
+*/
+    color: #440047;
+    margin: 1.2rem
+}
+.news-title:hover{
+    color: #e11d74;
+    cursor: pointer;
+    text-decoration: underline
+}
+.content{
+    border: 0.1rem solid #91d18b;
+    border-radius: 0.4rem;
+/*
+    padding-left: 1.2rem;
+    padding-right: 1.2rem;
+*/
+    
+    
+}

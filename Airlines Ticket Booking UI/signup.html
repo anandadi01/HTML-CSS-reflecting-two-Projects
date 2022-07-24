@@ -1,0 +1,58 @@
+<!doctype html>
+<html>
+    <head>
+        <title>ANAND Airlines</title>
+        <link rel="stylesheet" href="styles/styles.css">
+    </head>
+    <body class="design">
+        <div class="nav">
+            <h1 class="logo">ANAND Airlines</h1>
+            <a class="nav-item" href="plan.html">Home</a>
+            <a class="nav-item" href="mybookings.html">My Bookings</a>
+            <a class="nav-item" href="destinations.html">Destinations</a>
+            <a class="nav-item" href="login.html">Login</a>
+            <a class="nav-item" href="signup.html">Signup</a>
+        </div>
+        <h2 class="heading">Signup</h2>
+        <form action="login.html">
+            <table cellpadding="10">
+                <tr>
+                    <td>
+                        Title<br>
+                        <input type="radio" name="a" required id="mr"><label for="mr">Mr.</label>
+                        <input type="radio" name="a" id="mrs"><label for="mrs">Mrs.</label>
+                    </td>
+                </tr>
+                <tr>
+                        <td><label for="firstname">First Name</label><br><input type="text" id="firstname" required></td>
+                        <td><label for="lastname">Last Name</label><br><input type="text" id="lastname" required></td>
+                </tr>
+                <tr>
+                    <td><label for="email">Email</label><br><input type="text" id="email" required pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,}$" required title="xxxx@yyyy.zzz format"></td>
+                    <td><label for="mobile">Mobile Number</label><br><input type="text" id="mobile" pattern="[0-9]{10}" required title="Only 10 digit Number"></td>
+                </tr>
+                <tr>
+                    <td><label for="password">Password</label><br><input type="password" id="password" pattern="(?=.*\d)(?=.*[a-z])(?=.*[A-Z]).{8,}" title="A number, 1 upper case, 1 lower case with 8 or more characters" required></td>
+                    <td><label for="cnfpassword">Confirm Password</label><br><input type="password" id="cnfpassword" pattern="(?=.*\d)(?=.*[a-z])(?=.*[A-Z]).{8,}" title="A number, 1 upper case, 1 lower case with 8 or more characters" required></td>
+                </tr>
+                <tr>
+                    <td>
+                        <label for="language">Preferred Language</label><br>
+                        <select id="language" required>
+                            <option>Chinese</option>
+                            <option>Spanish</option>
+                            <option selected>English</option>
+                            <option>Hindi</option>
+                            <option>Portuguese</option>
+                        </select>
+                    </td>
+                    <td><input type="checkbox" id="newsletter"><label for="newsletter">Receive newsletters</label></td>
+                </tr>
+                <tr>
+                    <td><input class="design" type="submit" value="Register"></td>
+                    <td></td>
+                </tr>
+            </table>
+        </form>
+    </body>
+</html>

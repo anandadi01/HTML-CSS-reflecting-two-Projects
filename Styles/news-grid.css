@@ -1,0 +1,169 @@
+@import url('https://fonts.googleapis.com/css2?family=Abel&family=Roboto&family=Roboto+Slab&display=swap');
+*{
+    font-family: "Roboto Slab", sans-serif;
+    box-sizing: border-box
+}
+div{
+/*    border: 1px solid blue*/
+}
+
+.header{
+    background-color: #440047;
+/*    padding: 1rem;*/
+    border-bottom: 0.5rem solid #91d18b;
+    display: grid;
+    grid-template-columns: 10fr 1fr 1fr;
+    
+}
+
+.nav-link{
+    padding: 2rem;
+    font-weight: bold;
+    color: #fbecec;
+    text-decoration: none;
+}
+.nav-link:hover{
+    color: #e11d74
+}
+.logo{
+    color: #fbecec;
+    padding: 1rem;
+    margin: 0px
+}
+.category-column{
+/*    width: 25%;*/
+/*    float:left;*/
+/*    padding: 1.2rem;*/
+/*    background-color: RGBA(255,50,50,35%)*/
+}
+.headlines-column{
+/*    width: 49%;*/
+/*    float: left;*/
+/*    padding: 1.2rem*/
+/*    background-color: RGBA(50,255,50,35%)*/
+}
+.weather-column{
+/*    width: 25%;*/
+/*    float: left;*/
+/*    padding: 1.2rem;*/
+/*    background-color: RGBA(50,50,255,35%)*/
+}
+.footer{
+/*    background-color: RGBA(50,255,255,35%);*/
+    
+/*    clear: both;*/
+    padding: 1.2rem;
+    background-color: #440047;
+    color: #fbecec
+    
+}
+body{
+    margin: 0px
+}
+.heading{
+    color: #e11d74;
+/*    margin: 1.2rem*/
+    margin-top: 0rem
+}
+.degree{
+    text-align: center;
+    color: #91d188;
+    font-size: 6rem
+}
+.news-title, .cateogy-items{
+/*
+    padding-top: 0.6rem;
+    padding-bottom: 0.6rem;
+*/
+    color: #440047;
+    margin: 1.2rem
+}
+.news-title:hover{
+    color: #e11d74;
+    cursor: pointer;
+    text-decoration: underline
+}
+.content{
+    border: 0.1rem solid #91d18b;
+    border-radius: 0.4rem;
+/*
+    padding-left: 1.2rem;
+    padding-right: 1.2rem;
+*/
+    
+    
+}
+.container{
+    display: grid;
+    grid-template-columns: 1fr 2fr 1fr;
+    grid-gap: 1rem;
+    padding: 1rem
+    
+}
+.signup-container{
+    width: 36rem;
+    border: 0.1rem solid #91d18b;
+    border-radius: 0.4rem;
+    padding: 1rem;
+    margin: auto;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+}
+label{
+    display: block;
+    margin-top: 0.5rem;
+    margin-bottom: 0.5rem;
+    font-size: 0.7rem;
+    text-transform: uppercase;
+    font-weight: bold;
+    color: #440047
+}
+.form-element-container{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-gap: 1rem;
+    padding-bottom: 1rem;
+    
+}
+input[type='text'], [type='password'], select, textarea{
+    width: 100%;
+    font-size: 0.85rem;
+/*    padding: 1rem;*/
+    border: none;
+    border-bottom: 0.2rem solid #91d188;
+    background-color: #fbecec;
+    outline: none;
+    color: #e11d74
+}
+input[type='text']:focus, [type='password']:focus, select:focus, textarea:focus{
+/*    width: 100%;*/
+/*    font-size: 1rem;*/
+/*    padding: 1rem;*/
+/*    border: none;*/
+    border-bottom: 0.2rem solid #e11d74;
+/*    background-color: #fbecec;*/
+/*    outline: none;*/
+/*    color: #e11d74*/
+}
+.label-radio{
+    display: inline
+}
+input[type='submit']{
+    background-color: #e11d74;
+    padding: 1rem;
+    color: #fbecec;
+    font-weight: bold;
+    border: 0.1rem solid #e11d74;
+    margin-top: 1rem;
+    cursor: pointer;
+    font-size: 1rem
+}
+input[type='submit']:hover{
+    background-color: #fbecec;
+    color: #e11d74;
+}
+.big-star-icon-yellow{
+    line-height: 1;
+    vertical-align: middle;
+    font-size: 2em;
+}

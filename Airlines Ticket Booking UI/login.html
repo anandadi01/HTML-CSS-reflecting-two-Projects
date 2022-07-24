@@ -1,0 +1,33 @@
+<!doctype html>
+<html>
+    <head>
+        <title>ANAND Airlines</title>
+        <link rel="stylesheet" href="styles/styles.css">
+    </head>
+    <body class="design">
+        <div class="nav">
+            <h1 class="logo">ANAND Airlines</h1>
+            <a class="nav-item" href="plan.html">Home</a>
+            <a class="nav-item" href="mybookings.html">My Bookings</a>
+            <a class="nav-item" href="destinations.html">Destinations</a>
+            <a class="nav-item" href="login.html">Login</a>
+            <a class="nav-item" href="signup.html">Signup</a>
+        </div>
+        <div class="login-form-container">
+            <h2 class="heading">Login</h2>
+            <form action="plan.html">
+                <div class="login-element-container">
+                    <div class="form-group">
+                        <label for="email">Email</label>
+                        <input type="text" id="email" required pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,}$" required title="xxxx@yyyy.zzz format">
+                    </div>
+                    <div class="form-group">
+                        <label for="password">Password</label>
+                        <input type="password" id="password" pattern="(?=.*\d)(?=.*[a-z])(?=.*[A-Z]).{8,}" title="A number, 1 upper case, 1 lower case with 8 or more characters" required>
+                    </div>
+                </div>
+                <input type="submit" value="Login" class="btn">
+            </form>
+        </div>
+    </body>
+</html>

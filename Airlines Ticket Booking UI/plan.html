@@ -1,0 +1,110 @@
+<!doctype html>
+<html>
+    <head>
+        <title>ANAND Airlines</title>
+        <link rel="stylesheet" href="styles/styles.css">
+    </head>
+    <body class="design">
+        <div class="nav">
+            <h1 class="logo">ANAND Airlines</h1>
+            <a class="nav-item" href="plan.html">Home</a>
+            <a class="nav-item" href="mybookings.html">My Bookings</a>
+            <a class="nav-item" href="destinations.html">Destinations</a>
+            <a class="nav-item" href="login.html">Login</a>
+            <a class="nav-item" href="signup.html">Signup</a>
+        </div>
+        <h2 class="heading">Plans</h2>
+        <h5>We Plan to provide you the best Tour across the Globe</h5>
+        <img src="images/flight.jpeg" width="500">
+        <form method="post" action="http://jkorpela.fi/cgi-bin/echo.cgi">
+            <h1 class="heading">Search Flights</h1>
+            <table>
+                <tr>
+                    <td><input class="design" type="text" placeholder="From" required name="from"></td>
+                    <td><input class="design" type="text" placeholder="To" required name="to"></td>
+                    <td><input class="design" type="date" required name="traveldate"></td>
+                    <td>
+                        <select class="design" name="class">
+                            <option selected>Economy</option>
+                            <option>Business</option>
+                            <option>First</option>
+                        </select>
+                    </td>
+                    <td><input class="design" type="submit" value="Search" name="search"></td>
+                </tr>
+            </table>
+        </form>
+        <h1 class="heading">Recommended Flights</h1>
+        <div class="flights">
+            <div class="flight">
+                <div class="flight-number">SH288</div>
+                <div class="schedule">
+                    <div class="departure">
+                        <div class="from">Berlin (BER)</div>
+                        <div class="depart-time">21:00</div>
+                        <div class="depart-date">Wed 28 Oct 2020</div>
+                    </div>
+                    <div class="duration">49 hrs 5 mins</div>
+                    <div class="arrival">
+                        <div class="to">Sydney (SYD)</div>
+                        <div class="arrival-time">08:05</div>
+                        <div class="arrival-date">Sat 31 Oct 2020</div>
+                    </div>
+                </div>
+                <div class="cost">$3,499</div>
+                <form action="mybookings.html">
+                    <input type="submit" value="Book" class="btn">
+                </form>
+            </div>
+            <div class="flight">
+                <div class="flight-number">SH245</div>
+                <div class="schedule">
+                    <div class="departure">
+                        <div class="from">Sydney (SYD)</div>
+                        <div class="depart-time">22:25</div>
+                        <div class="depart-date">Tue 10 Nov 2020</div>
+                    </div>
+                    <div class="duration">23 hrs 55 mins</div>
+                    <div class="arrival">
+                        <div class="to">Berlin (BER)</div>
+                        <div class="arrival-time">12:20</div>
+                        <div class="arrival-date">Wed 11 Nov 2020</div>
+                    </div>
+                </div>
+                <div class="cost">$5,499</div>
+                <form action="mybookings.html">
+                    <input type="submit" value="Book" class="btn">
+                </form>
+            </div>
+        </div>
+<!--
+        <table border="3" cellpadding="10" cellspacing="0">
+            <tr>
+                <th>Flights</th>
+                <th>Departure</th>
+                <th>Duration</th>
+                <th>Arrival</th>
+                <th>Cost</th>
+                <th>Book</th>
+            </tr>
+            <tr>
+                <td>SH288</td>
+                <td><div>Jhanjharpur(JJP)</div><div>21:00</div><div>Tue 28 Dec 2021</div></td>
+                <td>10 mins</td>
+                <td>Darbhanga(DBG)<br> 21:10<br> Tue 28 Dec 2021</td>
+                <td>250</td>
+                <td><input type="submit" class="design" value="Book" ></td>
+            </tr>
+            <tr>
+                <td>LD499</td>
+                <td>Darbhanga(DBG)<br> 21:10<br> Tue 28 Dec 2021</td>
+                <td>10 mins</td>
+                <td>Jhanjharpur(JJP)<br> 21:00<br> Tue 28 Dec 2021</td>
+                <td>250</td>
+                <td><input type="submit" class="design" value="Book" ></td>
+            </tr>
+        </table>
+-->
+        
+    </body>
+</html>
